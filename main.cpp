@@ -31,7 +31,7 @@ int main( int argc, char** argv )
     src = imread( argv[1], 1 );
 
     /// Convert the image to Gray
-    cvtColor( src, src_gray, CV_BGR2RGBA );
+    cvtColor( src, src_gray, CV_BGR2GRAY);
 
     /// Create a window to display results
     namedWindow( window_name, CV_WINDOW_AUTOSIZE );
