@@ -33,6 +33,8 @@ int main( int argc, char** argv )
     /// Convert the image to Gray
     cvtColor( src, src_gray, CV_BGR2GRAY);
 
+    //TODO make
+
     /// Create a window to display results
     namedWindow( window_name, CV_WINDOW_AUTOSIZE );
 
