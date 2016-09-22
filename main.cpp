@@ -31,7 +31,7 @@ int main( int argc, char** argv )
     src = imread( argv[1], 1 );
 
     /// Convert the image to Gray
-    cvtColor( src, src_gray, CV_BGR2GRAY);
+    cvtColor( src, src_gray, CV_BGR2RGBA);
 
     //TODO make
 
