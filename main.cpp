@@ -1,7 +1,9 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 
-
+/*
+ * Created by O2B3K
+ */
 using namespace cv;
 
 /// Global variables
