@@ -19,6 +19,7 @@ char* trackbar_type = "Type: \n 0: Binary \n 1: Binary Inverted \n 2: Truncate \
 char* trackbar_value = "Value";
 
 /// Function headers
+
 void Threshold(int, void *);
 
 
